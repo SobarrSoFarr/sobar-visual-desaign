@@ -1,7 +1,9 @@
 body {
-   background-color: #FFFFFE0;
+   background-color: #FFFFE0;
    font-family: Arial, sans-serif;
-color: #191970:
+   color: #191970;
+}
+
 .kartu-profil {
    width: 300px;
    margin: 50px auto;
@@ -9,13 +11,42 @@ color: #191970:
    background-color: white;
    border-radius: 15px;
    box-shadow: 0 4px 8px rgba(0,0,0,0.1); 
+   text-align: center;
 }
-|
 
 .kartu-profil img {
    width: 150px;
    border-radius: 50%; 
+}
 
-.kartu-profil {
-   text-aligh: center;
-     
+/* 🔹 Tambahan styling untuk tombol */
+#SapaButton {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  background-color: #4CAF50;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: transform 0.2s, background-color 0.3s;
+}
+
+#SapaButton:hover {
+  background-color: #45a049;
+}
+
+#SapaButton.klik-efek {
+  transform: scale(1.1);
+  background-color: #2e7d32;
+}
+
+.kartu-profil img {
+   width: 150px;
+   border-radius: 50%; 
+   transition: box-shadow 0.3s, transform 0.3s;
+}
+
+.kartu-profil img:hover {
+   box-shadow: 0 0 20px rgba(76, 175, 80, 0.6); /* hijau glow */
+   transform: scale(1.05); /* sedikit membesar */
+}
