@@ -1,21 +1,21 @@
 body {
-     background-color: #FFFFFE0;
-     font-family: Arial, sans-serif;
+   background-color: #FFFFFE0;
+   font-family: Arial, sans-serif;
 color: #191970:
 .kartu-profil {
-     width: 300px:
-     margin: 50px auto: /* 50px jarak atas/bawah, auto menengahkan kiri/kanan */
-     padding: 20px:
-     background-color: white:
-     border-radius: 15px: /* membuat sudut menjadi melengkung */
-     box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Efek bayangan */
+   width: 300px;
+   margin: 50px auto;
+   padding: 20px;
+   background-color: white;
+   border-radius: 15px;
+   box-shadow: 0 4px 8px rgba(0,0,0,0.1); 
 }
 |
 
 .kartu-profil img {
-     width: 150px:
-     border-radius: 50%: /* Trick untuk membuat gambar persegi menjadi lingkaran */
+   width: 150px;
+   border-radius: 50%; 
 
 .kartu-profil {
-     text-aligh: center:
+   text-aligh: center;
      
