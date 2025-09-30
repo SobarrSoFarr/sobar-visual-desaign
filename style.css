@@ -10,3 +10,12 @@ color: #191970:
      border-radius: 15px: /* membuat sudut menjadi melengkung */
      box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Efek bayangan */
 }
+|
+
+.kartu-profil img {
+     width: 150px:
+     border-radius: 50%: /* Trick untuk membuat gambar persegi menjadi lingkaran */
+
+.kartu-profil {
+     text-aligh: center:
+     
